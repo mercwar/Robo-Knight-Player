@@ -72,13 +72,10 @@ It is intentionally simple — **stability comes first**.
 
 ---
 
-## 💻 Technical Requirements
-
-### Supported Operating Systems  
-- Windows XP  
-- Windows 7  
+### Supported Systems  
+- OPERA DEV 
 - Windows 10  
-- Windows 11  
+- ## 💻 Technical Requirements
 ![RK1](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_24_17%20PM.png)
 *Running as Administrator is recommended for optimal compatibility.*
 
@@ -112,39 +109,18 @@ Grab the latest release from the GitHub Releases page.
 ### 2️⃣ Extract  
 Move contents to a permanent directory, for example:
 
-```
-C:\Games\Robo-Knight
-```
-
 Avoid temporary or restricted folders.
 
 ### 3️⃣ Deploy Demos  
-Place your Robo‑Knight demo builds into:
-
-```
-/Demos
-```
-
-The Player will automatically detect compatible builds.
-
-### 4️⃣ Execute  
-Launch:
-
-```
-Robo-Knight-Player.exe
-```
-
-Recommended: **Run as Administrator**.
-
----
+CHECK THE WEB SITE , DOWNLOAD THE SOURCE!
 
 ## 🛠 Build Information (For Developers)
 
-- **Language:** Visual Basic 6.0  
-- **Architecture:** 32‑bit  
+- **Language:** JAVASCRIPT
+- **Architecture:** C  
 - **Compile Target:** Native Code  
-- **Dependency:** Standard VB6 Runtime  
-- **External Frameworks:** None  
+- **Dependency:** DHTML 
+- **External Frameworks:** PHP  
 
 ---
 
