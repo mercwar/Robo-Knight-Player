@@ -14,8 +14,8 @@ This is not a general‑purpose shell — **it is a dedicated launch terminal**.
 
 Access source code, documentation, and the latest stable binaries here:
 
-### ***https://mercwar01.bytehost3.com/Robo-Knight-Player.php***
-### ***https://mercwar01.bytehost3.com***
+### ***https://mercwar01.byeThost3.com/Robo-Knight-Player.php***
+### ***https://mercwar01.byeThost3.com***
 ### ***https://mercwar.github.io/Robo-Knight-Player.html***
 
 All official binaries and updates originate from **CVBGOD**.
