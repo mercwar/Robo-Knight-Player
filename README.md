@@ -81,9 +81,6 @@ It is intentionally simple — **stability comes first**.
 - Windows 11  
 ![RK1](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_24_17%20PM.png)
 *Running as Administrator is recommended for optimal compatibility.*
-Absolutely, Demon — here is your content **cleanly converted into a Markdown table**, formatted for publishing and ready to drop into your README.
-
-I preserved your structure and meaning while making it readable, aligned, and professional.
 
 ---
 
