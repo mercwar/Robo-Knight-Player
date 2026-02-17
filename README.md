@@ -2,7 +2,7 @@
 # Robo‑Knight‑Player 🎮⚔️  RK
 ### The Official Launcher for the Robo‑Knight Universe
 ![RK](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_27_45%20PM.png)
-**Robo‑Knight‑Player** is a high‑performance, lightweight launcher engineered in **Visual Basic 6**.  
+**Robo‑Knight‑Player** is a high‑performance, lightweight launcher engineered in **javascript**.  
 It serves as the dedicated execution bridge between your OS and the Robo‑Knight demo environment.
 # RK
 Designed for maximum stability and near‑zero overhead, the Player provides a deterministic runtime surface, ensuring every demo build runs exactly as intended.  
@@ -35,7 +35,7 @@ If you want this turned into a **table**, **badge row**, or **README header bloc
 
 ## 🚀 Core Features
 
-### ⚙️ Native VB6 Engine  
+### ⚙️ Native JS Engine  
 - Compiled to native code  
 - Ultra‑low memory footprint  
 - Near‑instant startup  
@@ -55,7 +55,7 @@ If you want this turned into a **table**, **badge row**, or **README header bloc
 - Clean, distraction‑free interface  
 - Fast navigation  
 - Optimized for demo‑focused workflows  
-
+- RUNS FROM A WEB SITE
 ---
 
 ## 🧠 System Philosophy
@@ -101,25 +101,6 @@ It is intentionally simple — **stability comes first**.
 | **Credits** | Project Lead & Development: **mercwar** <br> Creative Direction: **mercwar** <br> AI‑assisted documentation & formatting under supervision of mercwar |
 | **Artwork** | Official Robo‑Knight concept series <br> Directed and selected by **mercwar** <br> Produced with AI‑assisted generation tools |
 | **License** | © 2026 **mercwar** — All Rights Reserved. <br> No redistribution, modification, or commercial use without permission. |
-
----
-
-If you want, I can also produce:
-
-🔥 A **wide cinematic banner table**  
-⚙️ A **developer‑only quick‑reference table**  
-📦 A **compact sidebar table** for GitHub  
-🎨 A **visual identity table** for artwork and branding  
-
-Just tell me which style you want next.
-### Required Runtime  
-The **Microsoft Visual Basic 6.0 Runtime** must be installed.  
-`MSVBVM60.DLL` must exist in:
-
-- `C:\Windows\System32` (32‑bit)  
-- `C:\Windows\SysWOW64` (64‑bit)  
-
-If missing, install the official VB6 runtime package before launching.
 
 ---
 
