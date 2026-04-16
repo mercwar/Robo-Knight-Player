@@ -3,62 +3,69 @@
 ### The Official Launcher for the Robo‑Knight Universe
 ![RK](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_27_45%20PM.png)
 **Robo‑Knight‑Player** is a high‑performance, lightweight launcher engineered in **javascript**.  
-It serves as the dedicated execution bridge between your OS and the Robo‑Knight demo environment.
-# RK
-Designed for maximum stability and near‑zero overhead, the Player provides a deterministic runtime surface, ensuring every demo build runs exactly as intended.  
+
+#### 🔗 Official Hyperlinks  
+
+ALWAYS FREE Access RKP/RKU 
+-
+##### - [FFF MERCWAR](https://mercwar01.byethost3.com)
+##### - [RK Player](https://mercwar01.byethost3.com/Robo-Knight-Player.php)
+##### - [RK Universe](https://mercwar01.byethost3.com/DARKCOM/Dark-Com/RKU/index.php?JTRN_F=false)
+
+---
+
+# **Robo‑Knight Player — Execution Bridge Overview**
+
+It serves as the **dedicated execution bridge** between your OS and the Robo‑Knight demo environment.
+
+### **RK is designed for maximum stability and near‑zero overhead.**  
+The Player provides a **deterministic runtime surface**, ensuring every demo build runs exactly as intended.  
 This is not a general‑purpose shell — **it is a dedicated launch terminal**.
 
 ---
 
-## 🔗 Official Hyperlinks  
-
-Access source code, documentation, and the latest stable binaries here:
-### [AVIS SURFACE](https://mercwar01.byethost3.com/index.html)
-### ***https://mercwar01.byeThost3.com/Robo-Knight-Player.php***
-### ***https://mercwar01.byeThost3.com***
-### ***https://mercwar.github.io/Robo-Knight-Player.html***
-
-All official binaries and updates originate from **CVBGOD**.
+### **All official binaries and updates originate from _CVBGOD_.**
 
 ---
 
-If you want this turned into a **table**, **badge row**, or **README header block**, I can format it instantly.
+## 🚀 **Getting Started**
 
-## 🚀 Getting Started
-1. **Clone the repository:**
+1. **Clone the repository**
    ```bash
-   #THANKS TO: CVBGOD
-   #FROM: AI FRIENDS
-    git clone https://github.com.git
+   # THANKS TO: CVBGOD
+   # FROM: AI FRIENDS
+   git clone https://github.com.git
+   ```
 
 ---
 
-## 🚀 Core Features
+## 🚀 **Core Features**
 
-### ⚙️ Native JS Engine  
+### ⚙️ **Native JS Engine**
 - Compiled to native code  
 - Ultra‑low memory footprint  
 - Near‑instant startup  
 - Minimal background processes  
 
-### ⚡ Direct Execution  
+### ⚡ **Direct Execution**
 - Instant launch of Robo‑Knight demo packages  
 - Zero configuration required  
 - Clean, reliable handoff between launcher and executable  
 
-### 🧭 Controlled Runtime  
+### 🧭 **Controlled Runtime**
 - Stable execution path  
 - Eliminates environment inconsistencies  
 - Administrator‑safe deployment model  
 
-### 🖥 Minimalist UI  
+### 🖥 **Minimalist UI**
 - Clean, distraction‑free interface  
 - Fast navigation  
 - Optimized for demo‑focused workflows  
-- RUNS FROM A WEB SITE
+- **Runs directly from a website**
+
 ---
 
-## 🧠 System Philosophy
+## 🧠 **System Philosophy**
 
 Robo‑Knight‑Player is built on **intentional simplicity**.  
 By prioritizing performance and reliability over unnecessary abstraction, it maintains:
@@ -72,11 +79,16 @@ It is intentionally simple — **stability comes first**.
 
 ---
 
-### Supported Systems  
-- OPERA DEV 
+## 🖥 **Supported Systems**
+- OPERA DEV  
 - Windows 10  
-- ## 💻 Technical Requirements
-![RK1](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_24_17%20PM.png)
+
+## 💻 **Technical Requirements**
+
+<p align="center">
+  <img src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_24_17%20PM.png" width="60%">
+</p>
+
 *Running as Administrator is recommended for optimal compatibility.*
 
 ---
@@ -86,83 +98,76 @@ It is intentionally simple — **stability comes first**.
 | **Section** | **Details** |
 |------------|-------------|
 | **Title** | **Robo‑Knight‑Player 🎮⚔️ — The Official Launcher for the Robo‑Knight Universe** |
-| **Overview** | High‑performance VB6 launcher serving as the execution bridge between Windows and the Robo‑Knight demo environment. Designed for stability, speed, and deterministic runtime behavior. |
-| **Repository** | https://github.com/mercwar/Robo-Knight-Player |
-| **Core Features** | • Native VB6 engine (native code, ultra‑low memory) <br> • Direct demo execution (zero configuration) <br> • Controlled runtime surface (stable, predictable) <br> • Minimalist UI (fast, distraction‑free) |
-| **System Philosophy** | Intentional simplicity. Prioritizes performance, reliability, and cross‑version Windows compatibility. Avoids unnecessary abstraction. |
-| **Supported OS** | Windows XP, Windows 7, Windows 10, Windows 11 <br> *Admin mode recommended for best compatibility* |
-| **Required Runtime** | Microsoft Visual Basic 6.0 Runtime <br> `MSVBVM60.DLL` must exist in: <br> • `C:\Windows\System32` (32‑bit) <br> • `C:\Windows\SysWOW64` (64‑bit) |
-| **Installation Steps** | 1. Download latest release <br> 2. Extract to permanent folder (e.g., `C:\Games\Robo-Knight`) <br> 3. Place demos in `/Demos` <br> 4. Run `Robo-Knight-Player.exe` (Admin recommended) |
-| **Developer Info** | • Language: VB6 <br> • Architecture: 32‑bit <br> • Compile Target: Native Code <br> • Dependencies: Standard VB6 Runtime only |
-| **Versioning** | Branch: `main` <br> Releases: Tagged stable builds via GitHub Releases |
-| **Credits** | Project Lead & Development: **mercwar** <br> Creative Direction: **mercwar** <br> AI‑assisted documentation & formatting under supervision of mercwar |
-| **Artwork** | Official Robo‑Knight concept series <br> Directed and selected by **mercwar** <br> Produced with AI‑assisted generation tools |
-| **License** | © 2026 **mercwar** — All Rights Reserved. <br> No redistribution, modification, or commercial use without permission. |
+| **Overview** | High‑performance launcher serving as the execution bridge between Windows and the Robo‑Knight demo environment. Designed for stability, speed, and deterministic runtime behavior. |
+| **Owner** | [https://github.com/mercwar](https://github.com/mercwar) |
+| **Core Features** | • Native engine (ultra‑low memory) <br> • Direct demo execution <br> • Controlled runtime surface <br> • Minimalist UI |
+| **System Philosophy** | Intentional simplicity. Prioritizes performance, reliability, and cross‑version Windows compatibility. |
+| **Supported OS** | Windows XP, 7, 10, 11 <br> *Admin mode recommended* |
+| **Required Runtime** | Microsoft Visual Basic 6.0 Runtime <br> `MSVBVM60.DLL` must exist in: <br> • `C:\Windows\System32` <br> • `C:\Windows\SysWOW64` |
+| **Installation Steps** | 1. Download release <br> 2. Extract to permanent folder <br> 3. Place demos in `/Demos` <br> 4. Run `Robo-Knight-Player.exe` |
+| **Developer Info** | • Language: JavaScript <br> • Architecture: C <br> • Compile Target: Native Code <br> • Dependencies: DHTML, PHP |
+| **Versioning** | Branch: `main` <br> Releases: Tagged stable builds |
+| **Credits** | Project Lead: **mercwar** <br> Creative Direction: **mercwar** <br> AI‑assisted documentation under supervision of mercwar |
+| **Artwork** | Official Robo‑Knight concept series <br> Directed by **mercwar** |
+| **License** | © 2026 **mercwar** — All Rights Reserved |
 
 ---
 
-## 📦 Installation & Setup
+## 📦 **Installation & Setup**
 
 ### 1️⃣ Download  
-Grab the latest release from the GitHub Releases page.
+Get the latest release from the GitHub Releases page.
 
 ### 2️⃣ Extract  
-Move contents to a permanent directory, for example:
-
-Avoid temporary or restricted folders.
+Move contents to a permanent directory (avoid temporary folders).
 
 ### 3️⃣ Deploy Demos  
-CHECK THE WEB SITE , DOWNLOAD THE SOURCE!
+Check the website and download the source.
 
-## 🛠 Build Information (For Developers)
+---
 
-- **Language:** JAVASCRIPT
+## 🛠 **Build Information (Developers)**
+
+- **Language:** JavaScript  
 - **Architecture:** C  
 - **Compile Target:** Native Code  
-- **Dependency:** DHTML 
+- **Dependencies:** DHTML  
 - **External Frameworks:** PHP  
 
 ---
 
-## 🔄 Versioning
+## 🔄 **Versioning**
 
 - **Active Branch:** `main`  
-- **Release Model:** Tagged stable builds via GitHub Releases  
+- **Release Model:** Tagged stable builds  
 
 A full changelog is maintained in the repository.
 
 ---
 
-## 🤝 Credits & Creative Origin
+## 🤝 **Credits & Creative Origin**
 
-The Robo‑Knight ecosystem is the result of modern collaborative development, blending human vision with advanced technological assistance.
+The Robo‑Knight ecosystem is the result of modern collaborative development.
 
-- **Project Lead, Architecture & Development:** mercwar  
-- **Creative Direction & Branding:** mercwar  
-- **AI‑Augmented Development:** Documentation refinement, visual concepting, and structural formatting performed through iterative collaboration with advanced AI systems under direct supervision of mercwar.
-
----
-
-## 🎨 Project Artwork
-
-All Robo‑Knight artwork featured in this project is part of the official concept series.
-
-- **Direction & Final Selection:** mercwar  
-- **Production:** Created in collaboration with AI‑assisted generation tools to establish the visual identity of the Robo‑Knight universe.
+- **Project Lead & Development:** mercwar  
+- **Creative Direction:** mercwar  
+- **AI‑Augmented Support:** Documentation, formatting, and conceptual refinement under direct supervision of mercwar  
 
 ---
 
-## 📜 License & Copyright
+## 🎨 **Project Artwork**
+
+All artwork is part of the official Robo‑Knight concept series.
+
+- **Direction & Selection:** mercwar  
+- **Production:** AI‑assisted generation tools  
+
+---
+
+## 📜 **License & Copyright**
 
 **Robo‑Knight‑Player**  
-Copyright © 2026 **mercwar**  
-All Rights Reserved.
+© 2026 **mercwar** — All Rights Reserved.
 
-This software and its associated assets are the intellectual property of **mercwar**.  
-Unauthorized redistribution, modification, or commercial use is strictly prohibited.  
+Unauthorized redistribution, modification, or commercial use is prohibited.  
 Robo‑Knight and all associated branding remain the exclusive property of the author.
-
----
-
-**Built for stability. Maintained with precision.**
-
