@@ -80,7 +80,9 @@ It is intentionally simple — **stability comes first**.
 ---
 
 ## 🖥 **Supported Systems**
-- OPERA DEV  
+- OPERA DEV/GX
+- MS Edge
+- Google/FireFox
 - Windows 10  
 
 ## 💻 **Technical Requirements**
