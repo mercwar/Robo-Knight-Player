@@ -21,8 +21,8 @@
   
 ALWAYS FREE Access RKP/RKU 
 -
-##### - [FFF MERCWAR](https://mercwar01.byethost3.com)
-##### - [RK Player (Fire-Play)](https://mercwar01.byethost3.com/RRP/index.php)
+##### - [FFF MERCWAR](https://roborook.fanclub.rocks)
+##### - [RK Player (Fire-Play)](https://roborook.fanclub.rocks/RRP/index.php)
 
 ---
 
