@@ -15,11 +15,14 @@
 
 #### 🔗 Official Hyperlinks  
 
+- For use on tablet goto the RRP index page or press right click -  the fire player menu item (the one with the glowing orb) - from the menu and .. then select "Open in new tab". Works great on 5g with cast on a pc , for older tables bluetooth pair with a sound bar on 2.4g should work fine. 
+- For use on a computer , use your computer speakers or "connect to wireless display" win64. on an android like fire stick or your tv select mirror cast and allow your fire-stick to gointo mirror mode , then you will see your device appear in device connections. Streams on P.C very smoothly.
+
+  
 ALWAYS FREE Access RKP/RKU 
 -
 ##### - [FFF MERCWAR](https://mercwar01.byethost3.com)
-##### - [RK Player](https://mercwar01.byethost3.com/Robo-Knight-Player.php)
-##### - [RK Universe](https://mercwar01.byethost3.com/DARKCOM/Dark-Com/RKU/index.php?JTRN_F=false)
+##### - [RK Player (Fire-Play)](https://mercwar01.byethost3.com/RRP/index.php)
 
 ---
 
