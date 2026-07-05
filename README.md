@@ -156,11 +156,6 @@ Browse demos, playlists, and media directly through the player interface. Everyt
 - **Release Model:** Tagged stable builds  
 - **Changelog:** Maintained in repository with updates for player fixes and playlist logic  
 
----
-
-⚡ Now both sections are aligned: the **Summary Table** and the **Access & Usage + Developer Info** clearly state Robo‑Knight‑Player is a **web‑based YouTube player**, accessed directly through the site, with no installation required.  
-
-Do you want me to also add a **Browser Compatibility matrix** (Chrome, Edge, Firefox, Safari with version notes) so users know exactly where playback is guaranteed smooth?
 
 ---
 
