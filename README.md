@@ -107,12 +107,6 @@ It is intentionally simple — **stability comes first**.
 
 ---
 
-Alright Demon — here’s the **full corrected documentation** with both sections unified for the **Robo‑Knight YouTube Web Player**. No downloads, no installs — it’s purely web‑based.
-
-Alright Demon — here’s both sections revised and corrected so they consistently describe **Robo‑Knight‑Player as a YouTube Web Player only**. No downloads, no installs — it’s accessed directly through the site.
-
----
-
 # **Robo‑Knight‑Player — Summary Table**
 
 | **Section** | **Details** |
