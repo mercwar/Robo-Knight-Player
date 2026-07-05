@@ -107,46 +107,52 @@ It is intentionally simple — **stability comes first**.
 
 ---
 
+Alright Demon — here’s the **full corrected documentation** with both sections unified for the **Robo‑Knight YouTube Web Player**. No downloads, no installs — it’s purely web‑based.
+
+Alright Demon — here’s both sections revised and corrected so they consistently describe **Robo‑Knight‑Player as a YouTube Web Player only**. No downloads, no installs — it’s accessed directly through the site.
+
+---
+
 # **Robo‑Knight‑Player — Summary Table**
 
 | **Section** | **Details** |
-|------------|-------------|
-| **Title** | **Robo‑Knight‑Player 🎮⚔️ — The Official Launcher for the Robo‑Knight Universe** |
-| **Overview** | High‑performance launcher serving as the execution bridge between Windows and the Robo‑Knight demo environment. Designed for stability, speed, and deterministic runtime behavior. |
-| **Owner** | [https://github.com/mercwar](https://github.com/mercwar) |
-| **Core Features** | • Native engine (ultra‑low memory) <br> • Direct demo execution <br> • Controlled runtime surface <br> • Minimalist UI |
-| **System Philosophy** | Intentional simplicity. Prioritizes performance, reliability, and cross‑version Windows compatibility. |
-| **Supported OS** | Windows XP, 7, 10, 11 <br> *Admin mode recommended* |
-| **Required Runtime** | Microsoft Visual Basic 6.0 Runtime <br> `MSVBVM60.DLL` must exist in: <br> • `C:\Windows\System32` <br> • `C:\Windows\SysWOW64` |
-| **Installation Steps** | 1. Download release <br> 2. Extract to permanent folder <br> 3. Place demos in `/Demos` <br> 4. Run `Robo-Knight-Player.exe` |
-| **Developer Info** | • Language: JavaScript <br> • Architecture: C <br> • Compile Target: Native Code <br> • Dependencies: DHTML, PHP |
-| **Versioning** | Branch: `main` <br> Releases: Tagged stable builds |
-| **Credits** | Project Lead: **mercwar** <br> Creative Direction: **mercwar** <br> AI‑assisted documentation under supervision of mercwar |
-| **Artwork** | Official Robo‑Knight concept series <br> Directed by **mercwar** |
+| --- | --- |
+| **Title** | **Robo‑Knight‑Player 🎮⚔️ — Embedded YouTube Web Player** |
+| **Overview** | Provides a massive, self‑contained YouTube player inside the Robo‑Knight‑Player environment. Eliminates external JS, buttons, or launchers — everything runs in one artifact. |
+| **Owner** | [mercwar GitHub](https://github.com/mercwar) |
+| **Core Features** | • Full YouTube iframe embed <br> • Playlist loading logic <br> • Direct demo playback <br> • No external dependencies |
+| **System Philosophy** | Keep playback deterministic and stable across browsers. Player is embedded directly in the main window, not in a popup. |
+| **Supported OS / Browsers** | Modern browsers with iframe support (Chrome, Edge, Firefox, Safari) |
+| **Required Runtime** | None — runs in pure HTML/JS with YouTube iframe API |
+| **Integration Steps** | 1. Visit the Robo‑Knight‑Player website <br> 2. Player loads automatically in browser <br> 3. Browse playlists and demos directly |
+| **Developer Info** | • Language: JavaScript + HTML <br> • Architecture: iframe embed <br> • Dependencies: YouTube iframe API, PHP playlist loader |
+| **Versioning** | Branch: `main` <br> Releases: Unified AVIS‑ready artifacts |
+| **Credits** | Project Lead: **mercwar** <br> Creative Direction: **mercwar** |
+| **Artwork** | Official Robo‑Knight concept visuals integrated into player UI |
 | **License** | © 2026 **mercwar** — All Rights Reserved |
 
 ---
 
-## 📦 **Installation & Setup**
+## 🌐 **Access & Usage (Web Player)**
 
-### 1️⃣ Download  
-Get the latest release from the GitHub Releases page.
+### 1️⃣ Visit Website  
+Go directly to the official Robo‑Knight‑Player portal. No download or installation is required.  
 
-### 2️⃣ Extract  
-Move contents to a permanent directory (avoid temporary folders).
+### 2️⃣ Launch Player  
+The YouTube web player loads automatically in your browser. Playback begins inside the embedded iframe.  
 
-### 3️⃣ Deploy Demos  
-Check the website and download the source.
+### 3️⃣ Explore Content  
+Browse demos, playlists, and media directly through the player interface. Everything runs inside the browser — nothing external is needed.  
 
 ---
 
 ## 🛠 **Build Information (Developers)**
 
-- **Language:** JavaScript  
-- **Architecture:** C  
-- **Compile Target:** Native Code  
-- **Dependencies:** DHTML  
-- **External Frameworks:** PHP  
+- **Language:** JavaScript + HTML  
+- **Architecture:** iframe embed  
+- **Compile Target:** Web runtime (browser)  
+- **Dependencies:** YouTube iframe API  
+- **External Frameworks:** PHP playlist loader  
 
 ---
 
@@ -154,8 +160,13 @@ Check the website and download the source.
 
 - **Active Branch:** `main`  
 - **Release Model:** Tagged stable builds  
+- **Changelog:** Maintained in repository with updates for player fixes and playlist logic  
 
-A full changelog is maintained in the repository.
+---
+
+⚡ Now both sections are aligned: the **Summary Table** and the **Access & Usage + Developer Info** clearly state Robo‑Knight‑Player is a **web‑based YouTube player**, accessed directly through the site, with no installation required.  
+
+Do you want me to also add a **Browser Compatibility matrix** (Chrome, Edge, Firefox, Safari with version notes) so users know exactly where playback is guaranteed smooth?
 
 ---
 
