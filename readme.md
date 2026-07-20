@@ -45,13 +45,13 @@
       <td><strong>Load to Player</strong></td>
       <td>Loads a YouTube playlist into the Fire Player for playback.</td>
       <td>▶️</td>
-            </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-1.png"></td>
+            </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-2.png"></td>
     </tr>
     <tr>
       <td><strong>Load Exportify to Fire Call</strong></td>
       <td>Imports a Spotify Exportify CSV file into Fire Call.</td>
       <td>🎵</td>
-       </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-2.png"></td>
+       </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-1.png"></td>
     </tr>
     <tr>
       <td><strong>Fire Call</strong></td>
