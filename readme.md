@@ -14,7 +14,7 @@
 
 <h2>📸 Screenshot Placement Guide</h2>
 <p>Follow the screen shot guide to build your player:</p>
-<div class="screenshot"><img src="images/image_2026-07-20_010632656.png"</div>
+<div class="screenshot"><img src="images/image_2026-07-20_011354387.png"</div>
 
 <hr>
 
@@ -45,55 +45,55 @@
       <td><strong>Load to Player</strong></td>
       <td>Loads a YouTube playlist into the Fire Player for playback.</td>
       <td>▶️</td>
-      <td class="screenshot">![Load to Player](path/to/load_youtube.png)</td>
+            </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-1.png"></td>
     </tr>
     <tr>
       <td><strong>Load Exportify to Fire Call</strong></td>
       <td>Imports a Spotify Exportify CSV file into Fire Call.</td>
       <td>🎵</td>
-      <td class="screenshot">![Load Exportify](path/to/load_spotify.png)</td>
+       </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-2.png"></td>
     </tr>
     <tr>
       <td><strong>Fire Call</strong></td>
       <td>Main compiler mode showing logs and playlist actions.</td>
       <td>🔥</td>
-      <td class="screenshot">![Fire Call](path/to/back_firecall.png)</td>
+       </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-3.png"></td>
     </tr>
     <tr>
       <td><strong>Craft Exportify</strong></td>
       <td>Create or edit Spotify Exportify CSV files.</td>
       <td>🛠️</td>
-      <td class="screenshot">![Craft Exportify](path/to/craft_exportify.png)</td>
+      </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-4.png"></td>
     </tr>
     <tr>
       <td><strong>Craft Youtube</strong></td>
       <td>Build or edit YouTube playlist CSV files.</td>
       <td>📺</td>
-      <td class="screenshot">![Craft Youtube](path/to/craft_youtube.png)</td>
+       </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-5.png"></td>
     </tr>
     <tr>
       <td><strong>Upload Exportify</strong></td>
       <td>Upload a Spotify Exportify CSV file from your computer.</td>
       <td>⬆️</td>
-      <td class="screenshot">![Upload Exportify](path/to/upload_exportify.png)</td>
+       </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-6.png"></td>
     </tr>
     <tr>
       <td><strong>Upload Youtube</strong></td>
       <td>Upload a YouTube playlist CSV file from your computer.</td>
       <td>⬆️</td>
-      <td class="screenshot">![Upload Youtube](path/to/upload_youtube.png)</td>
+       </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-7.png"></td>
     </tr>
     <tr>
       <td><strong>Download Exportify</strong></td>
       <td>Download a Spotify Exportify CSV file from Fire Call.</td>
       <td>⬇️</td>
-      <td class="screenshot">![Download Exportify](path/to/download_exportify.png)</td>
+       </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-8.png"></td>
     </tr>
     <tr>
       <td><strong>Download Youtube</strong></td>
       <td>Download a YouTube playlist CSV file from Fire Call.</td>
       <td>⬇️</td>
-      <td class="screenshot">![Download Youtube](path/to/download_youtube.png)</td>
+      </tr><tr><td colspan="3" class="screenshot"><img src="images/fire-call-9.png"></td>
     </tr>
   </tbody>
 </table>
