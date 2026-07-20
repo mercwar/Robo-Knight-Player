@@ -8,7 +8,10 @@
 
 ---
 
-# Robo‑Knight‑Player 🎮⚔️  RK
+# Robo‑Knight‑Player ⚔️  RK
+
+### 🎮 The [Fire-Call](readme.md) Exportify/Youtube Engine is now online!
+- Goto the [Tutorial](readme.md)
 ### The Official Launcher for the Robo‑Knight Universe
 ![RK](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_27_45%20PM.png)
 **Robo‑Knight‑Player** is a high‑performance, lightweight launcher engineered in **javascript**.  
@@ -23,7 +26,7 @@ ALWAYS FREE Access RKP/RKU
 -
 ##### - [FFF MERCWAR](https://roborook.fanclub.rocks)
 ##### - [RK Player (Fire-Play)](https://roborook.fanclub.rocks/RRP/index.php)
-##### - Fire-Call Exportify/Youtube Engine !
+
 ---
 
 # **Robo‑Knight Player — Execution Bridge Overview**
