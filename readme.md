@@ -217,6 +217,143 @@
 
 <hr>
 
+
+<h1>🔥 Fire Call CSV Protocols</h1>
+<p>This section explains how to craft valid CSV files for Fire Call. Follow these protocols to ensure your playlists load correctly.</p>
+
+<hr>
+
+<h2>🎵 Exportify CSV Protocol (Spotify)</h2>
+<p><strong>Purpose:</strong> Import Spotify playlists into Fire Call using Exportify CSV files.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Step</th>
+      <th>Instruction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Export your playlist via Exportify as a CSV file.</td>
+      <td><code>Title,URL,Artist,Album,SpotifyID</code></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Open <strong>Craft Exportify</strong> mode in Fire Call.</td>
+      <td>🎵</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Add or edit tracks in the CSV editor.</td>
+      <td><code>"Traitor — Manimal",ljmZNTWIK_g,Manimal,Purgatorio,4zT7nW1PVgfzEF2g1fsrpE</code></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Save the file — Fire Call stores it in the <code>Spotify/</code> directory.</td>
+      <td>💾</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Switch to <strong>Load Exportify to Fire Call</strong> to compile and preview.</td>
+      <td>▶️</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>📺 YouTube CSV Protocol</h2>
+<p><strong>Purpose:</strong> Build or edit YouTube playlists in Fire Call using CSV files.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Step</th>
+      <th>Instruction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Create a CSV file with header <code>Title,URL,Artist,Album,SpotifyID</code>.</td>
+      <td><code>"Running Back — Herman Frank",ojdpo-wD9jc,"Herman Frank","The Devil Rides Out",69DkrRlysZfsBNgym5hncX</code></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Open <strong>Craft Youtube</strong> mode in Fire Call.</td>
+      <td>📺</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Add or edit tracks with video IDs, titles, and artist info.</td>
+      <td>✍️</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Save the file — Fire Call stores it in the <code>Youtube/</code> directory.</td>
+      <td>💾</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Switch to <strong>Load to Player</strong> mode to preview and play your playlist.</td>
+      <td>▶️</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><strong>Clipboard Shortcut:</strong> You can copy the YouTube CSV protocol directly to your clipboard without logging in. Then simply click the <strong>RRP banner</strong> in the interface — Fire Call will automatically load your playlist.</td>
+      <td>📋</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🚀 End‑to‑End Workflow</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Step</th>
+      <th>Exportify (Spotify)</th>
+      <th>YouTube</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Export playlist via Exportify</td>
+      <td>Prepare CSV with YouTube IDs</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Craft Exportify mode</td>
+      <td>Craft YouTube mode</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Save to <code>Spotify/</code> directory</td>
+      <td>Save to <code>Youtube/</code> directory</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Load Exportify to Fire Call</td>
+      <td>Load to Player</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Logs confirm actions</td>
+      <td>Logs confirm actions</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Download if needed</td>
+      <td>Copy protocol → Clipboard → Click RRP banner</td>
+    </tr>
+  </tbody>
+</table>
 <h2>📝 Notes</h2>
 <ul>
   <li>Always save CSV files in <strong>UTF‑8 encoding</strong> to avoid character errors.</li>
@@ -242,7 +379,8 @@
   <li>🛠️ Use <strong>Craft modes</strong> for editing, <strong>Upload/Download</strong> for file transfer, and <strong>Load modes</strong> for playback or import.</li>
 </ul>
 
-⚖️ Mercwear Legal Section
+## ⚖️ Mercwear Legal Section
+###
 This section provides the legal framework and usage policies for Mercwear and its Fire Call system. It is written in a GitHub‑style format with clear tables, emojis, and structured references so visitors understand their rights, responsibilities, and limitations when using the platform.
 
 📜 Terms of Use
