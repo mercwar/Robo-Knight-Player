@@ -115,6 +115,109 @@
 </table>
 <hr>
 
+
+
+<h1>🔥 Fire Call Technical Reference</h1>
+
+<p>This reference explains how to navigate Fire Call’s interface and finally get your player loaded. Each menu item is described with its purpose, when to use it, and what outcome to expect.</p>
+
+<hr>
+
+<h2>📋 Menu Navigation</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Menu Option</th>
+      <th>Purpose</th>
+      <th>Emoji</th>
+      <th>Usage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Load to Player</strong></td>
+      <td>Bring a YouTube playlist into the Fire Player.</td>
+      <td class="emoji">▶️</td>
+      <td>Select this to preview and play songs directly in the player.</td>
+    </tr>
+    <tr>
+      <td><strong>Load Exportify to Fire Call</strong></td>
+      <td>Import a Spotify Exportify CSV file.</td>
+      <td class="emoji">🎵</td>
+      <td>Use this to sync your Spotify playlists into Fire Call.</td>
+    </tr>
+    <tr>
+      <td><strong>Fire Call</strong></td>
+      <td>Main compiler mode with logs and playlist actions.</td>
+      <td class="emoji">🔥</td>
+      <td>Check system logs, see ACK/RACK/NACK actions, and manage playlists.</td>
+    </tr>
+    <tr>
+      <td><strong>Craft Exportify</strong></td>
+      <td>Create or edit Spotify CSV playlists.</td>
+      <td class="emoji">🛠️</td>
+      <td>Manually add tracks or adjust metadata before saving.</td>
+    </tr>
+    <tr>
+      <td><strong>Craft Youtube</strong></td>
+      <td>Create or edit YouTube CSV playlists.</td>
+      <td class="emoji">📺</td>
+      <td>Insert video IDs, titles, and artists for new playlists.</td>
+    </tr>
+    <tr>
+      <td><strong>Upload Exportify</strong></td>
+      <td>Upload a Spotify CSV file from your computer.</td>
+      <td class="emoji">⬆️</td>
+      <td>Bring external Spotify playlists into Fire Call.</td>
+    </tr>
+    <tr>
+      <td><strong>Upload Youtube</strong></td>
+      <td>Upload a YouTube CSV file from your computer.</td>
+      <td class="emoji">⬆️</td>
+      <td>Bring external YouTube playlists into Fire Call.</td>
+    </tr>
+    <tr>
+      <td><strong>Download Exportify</strong></td>
+      <td>Download a Spotify CSV file from Fire Call.</td>
+      <td class="emoji">⬇️</td>
+      <td>Save your Spotify playlist locally for backup or sharing.</td>
+    </tr>
+    <tr>
+      <td><strong>Download Youtube</strong></td>
+      <td>Download a YouTube CSV file from Fire Call.</td>
+      <td class="emoji">⬇️</td>
+      <td>Save your YouTube playlist locally for backup or sharing.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🚀 Step‑by‑Step: Getting Your Player Loaded</h2>
+<ol>
+  <li>🔽 Use the dropdown menu to select <strong>Load to Player</strong> or <strong>Load Exportify</strong> depending on your source.</li>
+  <li>📂 If loading from Spotify, make sure you have an Exportify CSV ready. If loading from YouTube, prepare your playlist CSV.</li>
+  <li>⬆️ Upload the file if needed using <strong>Upload Exportify</strong> or <strong>Upload Youtube</strong>.</li>
+  <li>📝 Watch the log panel:  
+    - <code>[ACK]</code> means a song was kept.  
+    - <code>[RACK]</code> means a song was added.  
+    - <code>[NACK]</code> means a song was ignored.  
+    - <code>[SYS]</code> shows system actions like rebuilds or wipes.  
+  </li>
+  <li>▶️ Once loaded, switch to <strong>Load to Player</strong> mode to preview and play your playlist.</li>
+  <li>💾 Use <strong>Download Exportify</strong> or <strong>Download Youtube</strong> to save your compiled playlist locally.</li>
+</ol>
+
+<hr>
+
+<h2>📝 Notes</h2>
+<ul>
+  <li>Always save CSV files in <strong>UTF‑8 encoding</strong> to avoid character errors.</li>
+  <li>Logs are your feedback system — check them after every action.</li>
+  <li>Use <strong>Craft modes</strong> for editing, <strong>Upload/Download</strong> for file transfer, and <strong>Load modes</strong> for playback.</li>
+</ul>
+
 <h2>🚀 How to Use Fire Call Step‑by‑Step</h2>
 <ol>
   <li>🔽 <strong>Select a mode</strong> from the dropdown menu.</li>
@@ -132,6 +235,7 @@
   <li>📊 Logs show <code>[ACK]</code> for kept songs, <code>[RACK]</code> for newly added, <code>[NACK]</code> for ignored, and <code>[SYS]</code> for system actions.</li>
   <li>🛠️ Use <strong>Craft modes</strong> for editing, <strong>Upload/Download</strong> for file transfer, and <strong>Load modes</strong> for playback or import.</li>
 </ul>
+
 
 </body>
 </html>
