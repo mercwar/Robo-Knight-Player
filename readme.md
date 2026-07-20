@@ -212,6 +212,7 @@
     - <code>[SYS]</code> shows system actions like rebuilds or wipes.  
   </li>
   <li>▶️ Once loaded, switch to <strong>Load to Player</strong> mode to preview and play your playlist.</li>
+  <li>▶️ Now your ready, <strong>Click the RRU Fire-Player</strong> from the Break-Tab Orb menu , then look under the banner that says "Constellation" you will see a Fire and Ice *Robo Rook Player* banner,  click on it and your youtube playlist will load into the black glass menu under the banner.</li>
   <li>💾 Use <strong>Download Exportify</strong> or <strong>Download Youtube</strong> to save your compiled playlist locally.</li>
 </ol>
 
