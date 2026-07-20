@@ -1,25 +1,122 @@
-Here’s a structured **README tutorial for Fire Call**, designed to guide visitors step‑by‑step through the interface. Each menu item is explained with instructions, and placeholders are included for screenshots so you can insert them where appropriate.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
----
+</head>
+<body>
 
-# Fire Call README Tutorial
+<h1>🔥 Fire Call README Tutorial</h1>
 
-Fire Call is the **playlist compiler and manager** inside the ROBO ROOK interface. It lets you load, craft, upload, and download playlists from both **YouTube** and **Spotify Exportify**. This tutorial walks you through each menu option with clear instructions and screenshot placeholders.
+<p>Welcome to <strong>Fire Call</strong>, the playlist compiler inside the <em>ROBO ROOK</em> interface. This guide teaches visitors how to use every menu option, with screenshots and instructions.</p>
 
----
+<hr>
 
+<h2>📸 Screenshot Placement Guide</h2>
+<p>Follow the screen shot guide to build your player:</p>
+<div class="screenshot"><img src="images/image_2026-07-20_010632656.png"</div>
 
+<hr>
 
+<h2>🔥 Fire Call Overview</h2>
+<p>Fire Call is your hub for managing playlists between <strong>YouTube</strong> and <strong>Spotify Exportify</strong>. It lets you:</p>
+<ul>
+  <li>📂 Load existing playlists</li>
+  <li>✍️ Craft new playlists</li>
+  <li>⬆️ Upload and ⬇️ Download playlist files</li>
+  <li>📝 View system logs and track playlist changes</li>
+</ul>
 
+<hr>
 
-Sources: internal tutorial design based on Fire Call interface
+<h2>📋 Menu Options</h2>
 
----
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+      <th>Emoji</th>
+      <th>Screenshot Placeholder</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Load to Player</strong></td>
+      <td>Loads a YouTube playlist into the Fire Player for playback.</td>
+      <td>▶️</td>
+      <td class="screenshot">![Load to Player](path/to/load_youtube.png)</td>
+    </tr>
+    <tr>
+      <td><strong>Load Exportify to Fire Call</strong></td>
+      <td>Imports a Spotify Exportify CSV file into Fire Call.</td>
+      <td>🎵</td>
+      <td class="screenshot">![Load Exportify](path/to/load_spotify.png)</td>
+    </tr>
+    <tr>
+      <td><strong>Fire Call</strong></td>
+      <td>Main compiler mode showing logs and playlist actions.</td>
+      <td>🔥</td>
+      <td class="screenshot">![Fire Call](path/to/back_firecall.png)</td>
+    </tr>
+    <tr>
+      <td><strong>Craft Exportify</strong></td>
+      <td>Create or edit Spotify Exportify CSV files.</td>
+      <td>🛠️</td>
+      <td class="screenshot">![Craft Exportify](path/to/craft_exportify.png)</td>
+    </tr>
+    <tr>
+      <td><strong>Craft Youtube</strong></td>
+      <td>Build or edit YouTube playlist CSV files.</td>
+      <td>📺</td>
+      <td class="screenshot">![Craft Youtube](path/to/craft_youtube.png)</td>
+    </tr>
+    <tr>
+      <td><strong>Upload Exportify</strong></td>
+      <td>Upload a Spotify Exportify CSV file from your computer.</td>
+      <td>⬆️</td>
+      <td class="screenshot">![Upload Exportify](path/to/upload_exportify.png)</td>
+    </tr>
+    <tr>
+      <td><strong>Upload Youtube</strong></td>
+      <td>Upload a YouTube playlist CSV file from your computer.</td>
+      <td>⬆️</td>
+      <td class="screenshot">![Upload Youtube](path/to/upload_youtube.png)</td>
+    </tr>
+    <tr>
+      <td><strong>Download Exportify</strong></td>
+      <td>Download a Spotify Exportify CSV file from Fire Call.</td>
+      <td>⬇️</td>
+      <td class="screenshot">![Download Exportify](path/to/download_exportify.png)</td>
+    </tr>
+    <tr>
+      <td><strong>Download Youtube</strong></td>
+      <td>Download a YouTube playlist CSV file from Fire Call.</td>
+      <td>⬇️</td>
+      <td class="screenshot">![Download Youtube](path/to/download_youtube.png)</td>
+    </tr>
+  </tbody>
+</table>
 
-### 🔑 Summary
-- **Load** options bring existing playlists into Fire Call.  
-- **Craft** options let you create or edit playlists.  
-- **Upload/Download** options handle moving CSV files between your local storage and Fire Call.  
-- The **Fire Call** mode itself is the central compiler where logs and playlist actions are displayed.  
+<hr>
 
-👉 Insert the provided screenshots into each placeholder step so visitors can visually follow along. This README will serve as a complete guide for new users to understand and operate Fire Call.
+<h2>🚀 How to Use Fire Call Step‑by‑Step</h2>
+<ol>
+  <li>🔽 <strong>Select a mode</strong> from the dropdown menu.</li>
+  <li>📂 <strong>Load or insert your playlist file</strong> depending on the mode.</li>
+  <li>📝 <strong>Check the system log</strong> in the sidebar to confirm actions.</li>
+  <li>💾 <strong>Save or download</strong> your playlist when finished.</li>
+  <li>🔄 <strong>Switch modes</strong> anytime to move between YouTube and Spotify workflows.</li>
+</ol>
+
+<hr>
+
+<h2>📝 Notes for Visitors</h2>
+<ul>
+  <li>💡 Always save playlists in <strong>UTF‑8 encoding</strong> to avoid character errors.</li>
+  <li>📊 Logs show <code>[ACK]</code> for kept songs, <code>[RACK]</code> for newly added, <code>[NACK]</code> for ignored, and <code>[SYS]</code> for system actions.</li>
+  <li>🛠️ Use <strong>Craft modes</strong> for editing, <strong>Upload/Download</strong> for file transfer, and <strong>Load modes</strong> for playback or import.</li>
+</ul>
+
+</body>
+</html>
