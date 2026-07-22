@@ -1,167 +1,416 @@
-/* ============================================================
-   GLOBAL PAGE SETTINGS
-============================================================ */
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: auto;
-  overflow-y: auto;
-  background-color: #000;
-  background-image: url("https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%206/holo-glass-tile.png");
-  background-repeat: repeat;
-  background-size: 512px 512px;
-  background-position: center top;
+:root {
+  --black-0:#000;
+  --black-1:#030408;
+  --black-2:#050814;
+  --blue-darkest:#020512;
+  --blue-darker:#060c22;
+  --blue-mid:#0b153a;
+  --gold:#fbbf24;
+  --gold-strong:#ffd76b;
+  --gold-soft:#fbbf241a;
+  --orange:#ff8c00;
+  --orange-strong:#ffa733;
+  --orange-soft:#ff8c0022;
+  --blue:#9be1f0;
+  --blue-strong:#fff;
+  --blue-soft:#9be1f026;
+  --blue-light:#9be1f0;
+  --blue-glow:#9be1f0;
+  --text:#fff;
+  --muted:#9be1f0aa;
+  --radius:12px; 
+  --radius-sm:6px; 
+  --mono:"JetBrains Mono",monospace;
+  --border-blue:rgba(155, 225, 240, 0.15); 
+  --border-gold:rgba(251, 191, 36, 0.2);
+  --border-orange:rgba(255, 140, 0, 0.2);
+  --shadow-blue:0 4px 24px -4px rgba(155, 225, 240, 0.08), 0 1px 2px 0 rgba(155, 225, 240, 0.04);
+  --shadow-gold:0 4px 16px -4px rgba(251, 191, 36, 0.1);
+  --shadow-orange:0 4px 16px -4px rgba(255, 140, 0, 0.15);
 }
 
-/* ============================================================
-   HEADER + AVIS BUTTON
-============================================================ */
-
-
-/* ============================================================
-   DIVIDERS
-============================================================ */
-.divider {
-  width: 950px;
-  height: 750px;
-  margin: 40px auto;
-  overflow: visible;
-  background-image: url("https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%206/avitar7.png?v=1");
-  background-size: 950px 750px;
-  background-repeat: no-repeat;
-  background-position: top center;
-  border: 1px solid rgba(201,162,39,0.35);
-  box-shadow: 0 0 2px rgba(0,255,255,0.25);
-  border-radius: 1px;
+html,body {
+margin:0;
+padding:0;
+min-height:100vh;
+width:100%;
+overflow-y:auto!important;
+overflow-x:hidden!important;
+background:url("rru-bg.png") center/cover no-repeat fixed,var(--blue-darkest);
+color:var(--text);
+font-family:system-ui,sans-serif;
+display:flex;
+flex-direction:column;
+box-sizing:border-box
 }
 
-/* ============================================================
-   🔥 FINAL AVIS CONTROL FIX — SMALL THUMBS + NO SCROLLBAR HELL
-============================================================ */
-
-/* ============================================================
-   GRID PATCH — FIX HEIGHT + INTERNAL SCROLL
-============================================================ */
-#grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-    max-width: 900px;
-    margin: 20px auto;
-
-    /* 🔧 Critical fix */
-    max-height: 140px;       /* lock grid height */
-    overflow-y: auto;        /* vertical scroll inside grid */
-    overflow-x: hidden;      /* prevent horizontal scrollbar */
+/* GLOBAL SCROLLBAR CONFIG */
+html::-webkit-scrollbar,
+.file-tree::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
 }
 
-/* Thumbnails remain small and neat */
-.thumb {
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-    border: 1px solid #c9a227;
-    border-radius: 4px;
-    cursor: pointer;
-    flex: 0 0 auto;
-    transition: transform .2s ease-out, box-shadow .2s ease-out;
+html::-webkit-scrollbar-track,
+.file-tree::-webkit-scrollbar-track {
+  background: transparent !important;
 }
 
-.thumb:hover {
-    transform: scale(1.08);
-    box-shadow: 0 0 10px rgba(0,255,255,0.6);
+html::-webkit-scrollbar-thumb,
+.file-tree::-webkit-scrollbar-thumb {
+  background: rgba(155, 225, 240, 0.25) !important;
+  border-radius: 10px !important;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+.file-tree::-webkit-scrollbar-thumb:hover {
+  background: rgba(155, 225, 240, 0.45) !important;
+}
+
+/* SEPARATE YELLOW BODY SCROLLBAR */
+body::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 235, 59, 1) !important; /* solid yellow */
+  border-radius: 10px !important;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 215, 0, 1) !important; /* darker yellow on hover */
 }
 
 
-
-/* ============================================================
-   FIX: PROTECT LIGHTBOX IMAGE FROM THUMBNAIL RULES
-============================================================ */
-
-/* Lightbox image must NEVER inherit thumbnail size */
-#lbImg {
-    width: auto !important;
-    height: auto !important;
-    max-width: 90vw !important;
-    max-height: 90vh !important;
-    object-fit: contain !important;
-    border: 2px solid #c9a227 !important;
-    border-radius: 6px !important;
+*,::before,::after {
+box-sizing:border-box
 }
 
-/* Thumbnails must ONLY apply to .thumb */
-#grid img:not(#lbImg) {
-    width: 90px !important;
-    height: 90px !important;
-    object-fit: cover !important;
-    cursor: pointer !important;
-}
-#pager{
-		margin-left:320px;
-    margin-top:220px;
-    position: relative !important;
-    z-index: 9999 !important;
-}
-header {
-    position: relative;
-    top: 120px;
-	
-    width: 100%;
-    text-align: left;
-    z-index: 10;
+.rru-header {
+background:rgba(5, 8, 20, 0.75);
+border-bottom:1px solid var(--border-blue);
+padding:14px 24px;
+justify-content:space-between;
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+box-shadow:var(--shadow-blue);
+display:flex;
+align-items:center
 }
 
-#jump_scroll{
-
+.brand {
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:600;
+letter-spacing:.08em;
+text-transform:uppercase;
+font-size:11px;
+color:var(--blue)
 }
 
-/* 4. FIX AVIS BUTTON POSITION */
-#avisBtn {
-	margin-left:270px;
-    
-    position: relative !important;
-    z-index: 9999 !important;
+.brand-badge {
+width:22px;
+height:22px;
+border-radius:var(--radius-sm);
+background:linear-gradient(135deg,var(--orange-strong),var(--orange));
+color:var(--black-0);
+font-family:var(--mono);
+font-size:11px;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:var(--shadow-orange)
 }
 
-h1{
-	margin-left:445px;
-    margin-top:80px;
-    position: relative !important;
-    z-index: 9999 !important;
+.rru-panel {
+background:rgba(3, 4, 8, 0.5);
+border:1px solid var(--border-blue);
+backdrop-filter:blur(16px);
+-webkit-backdrop-filter:blur(16px);
+padding:12px 16px;
+border-radius:var(--radius);
+box-shadow:var(--shadow-blue)
 }
 
-main {
-    position: relative;
-    top: 115px;
-    width: 100%;
-    text-align: center;
-    z-index: 10;
-}
-/* ===== WEBKIT (Chrome, Edge, Safari, Opera) ===== */
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+.rru-flex {
+display:flex;
+align-items:center
 }
 
-::-webkit-scrollbar-track {
-    background: #000000; 
+.rru-gap {
+gap:12px
 }
 
-::-webkit-scrollbar-thumb {
-    background: #c9a227; /* Matches your gold theme tint */
-    border-radius: 5px;
-    border: 2px solid #000000; /* Creates a clean gap effect */
+.rru-pill {
+background:rgba(5, 8, 20, 0.4);
+border:1px solid var(--border-orange);
+padding:4px 12px;
+border-radius:20px; 
+display:flex;
+align-items:center;
+gap:6px;
+box-shadow:var(--shadow-orange)
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: #f5d76e; /* Bright gold on hover */
+.rru-pill-dot {
+width:6px;
+height:6px;
+border-radius:50%;
+background:var(--orange-strong);
+box-shadow:0 0 8px var(--orange-strong)
 }
 
-/* ===== FIREFOX ===== */
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #c9a227 #000000; /* thumb | track */
+.rru-pill-label {
+font-size:10px;
+text-transform:uppercase;
+letter-spacing:.08em;
+color:var(--blue)
 }
 
+.rru-pill-value {
+color:var(--gold-strong);
+font-weight:600;
+font-size:11px
+}
+
+.top-banner {
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+background:rgba(5, 8, 20, 0.4);
+border-bottom:1px solid var(--border-blue);
+backdrop-filter:blur(12px);
+-webkit-backdrop-filter:blur(12px);
+overflow:hidden;
+flex-shrink:0
+}
+
+.top-banner-img {
+width:100%;
+height:100%;
+object-fit:cover
+}
+
+.layout {
+flex:1;
+display:grid;
+grid-template-columns:260px 1fr;
+min-height:0!important;
+padding:16px;
+gap:16px
+}
+
+.sidebar {
+background:rgba(3, 4, 8, 0.3);
+border:1px solid var(--border-blue);
+border-radius:var(--radius);
+box-shadow:var(--shadow-blue);
+backdrop-filter:blur(16px);
+-webkit-backdrop-filter:blur(16px);
+display:flex;
+flex-direction:column;
+height:100%;
+min-height:0;
+overflow:hidden
+}
+
+.gateway-container {
+display:flex;
+align-items:center;
+justify-content:center;
+padding:12px;
+background:rgba(2, 5, 18, 0.4);
+border-bottom:1px solid var(--border-blue);
+margin-bottom:8px;
+flex-shrink:0
+}
+
+.gateway-link {
+width:100%;
+display:block;
+text-decoration:none
+}
+
+.gateway-banner {
+width:100%;
+height:auto;
+object-fit:contain;
+display:block
+}
+
+.sidebar-header {
+padding:12px 16px;
+font-size:10px;
+text-transform:uppercase;
+letter-spacing:.08em;
+color:var(--muted);
+border-bottom:1px solid var(--border-blue)
+}
+
+.sidebar-search {
+padding:10px 12px;
+border-bottom:1px solid var(--border-blue)
+}
+
+.sidebar-search input {
+width:100%;
+padding:8px 12px;
+border-radius:var(--radius-sm);
+border:1px solid var(--border-blue);
+background:rgba(5, 8, 20, 0.5);
+color:var(--text);
+font-family:system-ui, sans-serif;
+font-size:12px;
+transition: border-color 0.2s ease;
+}
+
+.sidebar-search input:focus {
+outline:none;
+border-color:rgba(155, 225, 240, 0.4);
+}
+
+/* ==========================================================================
+   FIXED FILE TREE PATCH (Replaces old .file-tree, .tree-node, .tree-children)
+   ========================================================================== */
+
+.file-tree {
+  font-family: var(--mono);
+  font-size: 12px;
+  padding: 8px;
+  height: 300px;
+  
+  /* Core Horizontal Scroll Fixes */
+  overflow-y: auto !important;
+  overflow-x: auto !important;  /* Re-enabled system overflow */
+  display: block;                /* Declares explicit block bounding */
+  
+  /* Scrollbar Styling */
+  scrollbar-width: thin; 
+  scrollbar-color: rgba(155, 225, 240, 0.25) transparent;
+}
+
+.tree-node {
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--muted);
+  transition: all 150ms ease;
+  user-select: none;
+  
+  /* Critical Fix: Forces long file strings to stretch instead of wrap */
+  white-space: nowrap;
+  width: max-content;
+  min-width: 100%;
+}
+
+.tree-children {
+  margin-left: 14px;
+  border-left: 1px solid rgba(155, 225, 240, 0.08);
+  padding-left: 8px;
+  
+  /* Critical Fix: Changes hidden flag to visible container expansion */
+  overflow: visible; 
+  width: max-content;
+  min-width: 100%;
+}
+
+
+.tree-node:hover {
+background:rgba(11, 21, 58, 0.4);
+color:var(--blue-strong)
+}
+
+.tree-node.active {
+background:rgba(11, 21, 58, 0.6);
+border:1px solid rgba(155, 225, 240, 0.25);
+color:var(--blue)
+}
+
+.tree-toggle {
+width:14px;
+margin-right:4px;
+font-size:10px;
+color:var(--blue)
+}
+
+
+.main {
+display:flex;
+flex-direction:column;
+height:100%;
+min-height:0;
+overflow:hidden
+}
+
+.main-header {
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-shrink:0;
+margin-bottom:12px;
+width:100%
+}
+
+.main-path {
+font-family:var(--mono);
+font-size:12px;
+color:var(--muted)
+}
+
+.main-path strong {
+color:var(--blue-light)
+}
+
+.btn {
+padding:8px 16px;
+border-radius:var(--radius-sm);
+border:1px solid var(--border-blue);
+background:rgba(6, 12, 34, 0.6);
+color:var(--blue);
+font-family:system-ui, sans-serif;
+font-size:12px;
+font-weight:500;
+cursor:pointer;
+transition:all 150ms ease
+}
+
+.btn:hover {
+border-color:rgba(255, 140, 0, 0.4);
+color:var(--orange-strong);
+background:rgba(11, 21, 58, 0.4);
+}
+
+.rk-btn-primary {
+border-color:var(--border-gold);
+background:linear-gradient(135deg, rgba(251,191,36,0.1), rgba(5,8,20,0.4));
+color:var(--gold-strong);
+box-shadow:var(--shadow-gold)
+}
+
+.viewer {
+display:flex;
+flex-direction:column;
+flex:1;
+min-height:0;
+overflow:hidden
+}
+
+.viewer-body {
+flex:1;
+height:440px;
+min-height:440px;
+max-height:440px;
+position:relative;
+display:flex;
+flex-direction:column;
+overflow:hidden
+}
