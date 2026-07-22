@@ -18,47 +18,40 @@
 <h2>Loading Repository…</h2>
 
 <script>
-// -----------------------------------------
-// 1. DETECT THIS FILE'S REPO NAME
-// -----------------------------------------
-const path = window.location.pathname.split("/").filter(Boolean);
+window.addEventListener("load", () => {
+    const anchor = document.getElementById("jump_scroll");
+    if (!anchor) return;
 
-// Example paths:
-//   /Mercwar/index.html          → repo = Mercwar
-//   /Constellation/index.html    → repo = Constellation
-//   ../../Mercwar/index.html     → repo = Mercwar
+    anchor.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
 
-// Repo name is ALWAYS the folder BEFORE this file
-const repo_name = path[path.length - 2] || "mercwar";
+    let lastPos = -1;
+    let sameCount = 0;
 
-// -----------------------------------------
-// 2. LOCAL MODE SWITCH
-// -----------------------------------------
-const LOCAL_MODE = false;
+    function trackScroll() {
+        const currentPos = window.scrollY;
 
-let git_url = LOCAL_MODE
-  ? "../../"
-  : "https://mercwar.github.io/";
+        if (currentPos === lastPos) {
+            sameCount++;
+            if (sameCount >= 3) {
+                window.scrollBy({
+                    top: 140,
+                    behavior: "smooth"
+                });
+                return;
+            }
+        } else {
+            sameCount = 0;
+        }
 
-// -----------------------------------------
-// 3. CLEAN URL JOINER (NO DOUBLE SLASHES)
-// -----------------------------------------
-function joinURL(base, path) {
-  return base.replace(/\/+$/, "") + "/" + path.replace(/^\/+/, "");
-}
+        lastPos = currentPos;
+        requestAnimationFrame(trackScroll);
+    }
 
-// -----------------------------------------
-// 4. BUILD FINAL REDIRECT URL
-// LIVE is ALWAYS inside Constellation
-// -----------------------------------------
-const clean_url =
-  joinURL(git_url, "Constellation/LIVE/index.html") +
-  `?index=${repo_name}`;
-
-// -----------------------------------------
-// 5. REDIRECT
-// -----------------------------------------
-window.location.href = clean_url;
+    requestAnimationFrame(trackScroll);
+});
 </script>
 
 </body>
