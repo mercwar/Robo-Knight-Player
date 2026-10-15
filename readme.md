@@ -23,7 +23,7 @@
 
 
 <hr>
-<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com/RRP/index.php">
+<a target="_self" title="CLICK HERE to ENTER the RRP FREE!" href="https://mercwar01.byethost3.com/RRP/index.php">
 <img 
     src="images/rkrrp.png" 
     alt="Mercwar RRP" 
