@@ -13,7 +13,16 @@
 ### 🎮 The [Fire-Call](readme.md) Exportify/Youtube Engine is now online!
 - Goto the [Tutorial](readme.md)
 ### The Official Playlist Launcher for the Robo‑Knight Universe
-![RK](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_27_45%20PM.png)
+<a target="_self" title="CLICK HERE to ENTER the RRP FREE!" href="https://mercwar01.byethost3.com/RRP/index.php">
+<img 
+    src="images/rkrrp.png" 
+    alt="Mercwar RRP" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+
+
 **Robo‑Knight‑Player** is a high‑performance, lightweight launcher engineered in **javascript**.  
 
 #### 🔗 Official Hyperlinks  
@@ -23,7 +32,9 @@
 
   
 ALWAYS FREE Access RKP/RKU 
--
+
+![RK](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2010_27_45%20PM.png)
+
 ##### - [FFF MERCWAR](https://mercwar01.byethost3.com)
 ##### - [RK Player (Fire-Play)](https://mercwar01.byethost3.com/RRP/index.php)
 
