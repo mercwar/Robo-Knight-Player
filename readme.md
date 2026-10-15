@@ -12,17 +12,37 @@
     style="width:100%; height:auto;"
 />
 </a>
+
+
 <h1>🔥 Fire Call README Tutorial</h1>
 
-<p>Welcome to <strong>Fire Call</strong>, the playlist compiler inside the <em>ROBO ROOK</em> interface. This guide teaches visitors how to use every menu option, with screenshots and instructions.</p>
+<p>Welcome to <strong>Fire Call</strong>, the 'playlist compiler' inside the <em>ROBO ROOK</em> interface. This guide teaches visitors how to use every menu option, with screenshots and instructions.</p>
+
+🤖️ The exportify converter automatically compiles the mirror copy of your spotify list to a youtube list that you load into the RRP.  
+🪪️ The youtube compiler, creates playlist that you can listen to and watch videos with, also using the csv editor or the exportify compiler.   
+
 
 <hr>
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com/RRP/index.php">
+<img 
+    src="images/rkrrp.png" 
+    alt="Mercwar RRP" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+<hr>
+
+##  <i>...And now,  The Official Robo Knight Player README</i>
+###### *"<i>I am CVBGOD and I have given it to you</i>!"*
 
 <h2>📸 Screenshot Placement Guide</h2>
 <p>Follow the screen shot guide to build your player:</p>
-<div class="screenshot"><img src="images/image_2026-07-20_011354387.png"</div>
+
 
 <hr>
+<div class="screenshot"><img src="images/image_2026-07-20_011354387.png"</div>
+<h2>📸 Screenshot Placement Guide</h2>
 
 <h2>🔥 Fire Call Overview</h2>
 <p>Fire Call is your hub for managing playlists between <strong>YouTube</strong> and <strong>Spotify Exportify</strong>. It lets you:</p>
